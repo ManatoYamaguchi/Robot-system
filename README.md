@@ -40,13 +40,26 @@ LEDのアノードがそれぞれGPIO24,GPIO25に接続されています。
 
 ## 実行する場合
 
-* 0を入力する場合
+* 0を入力する場合  
       $ echo 0 > /dev/myled0
   
-  赤色LED,青色LEDの両方とも消灯します。
+  赤色LED,緑色LEDの両方とも消灯します。
   
-* 1を入力する場合
+* 1を入力する場合  
+      $ echo 1 > /dev/myled0
+      
+  赤色LEDは消灯し,緑色LEDは点灯します。
   
-* 2を入力する場合
+* 2を入力する場合  
+      $ echo 2 > /dev/myled0
+      
+  赤色LEDは点灯し,緑色LEDは消灯します。
+  
 * 3を入力する場合
+      $ echo 3 > /dev/myled0
+      
+ 赤色LED,緑色LEDの両方とも点灯します。
+ 
+---
+
 https://youtu.be/qCr7hVg5pgQ
