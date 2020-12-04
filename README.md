@@ -30,7 +30,7 @@ LEDのアノードがそれぞれGPIO24,GPIO25に接続されています。
 
 ## ビルド
 
-* $ git clone 
+* $ git clone https://github.com/ManatoYamaguchi/Robot-system.git 
 * $ cd Robot-system/myled
 * $ make
 * $ sudo insmod myled.ko
