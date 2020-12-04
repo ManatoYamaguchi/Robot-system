@@ -24,5 +24,28 @@
 ## 回路
 
 <img src=https://user-images.githubusercontent.com/72900954/101147435-b7e58f00-365f-11eb-8fc7-64f409f82b8b.jpeg>
+LEDのアノードがそれぞれGPIO24,GPIO25に接続されています。
 
+---
+
+## ビルド
+
+* $ git clone 
+* $ cd Robot-system/myled
+* $ make
+* $ sudo insmod myled.ko
+* $ sudo chmod 666 /dev/myled0
+
+---
+
+## 実行する場合
+
+* 0を入力する場合
+  $ echo 0 > /dev/myled0
+  赤色LED,青色LEDの両方とも消灯します。
+  
+* 1を入力する場合
+  
+* 2を入力する場合
+* 3を入力する場合
 https://youtu.be/qCr7hVg5pgQ
