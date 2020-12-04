@@ -62,4 +62,11 @@ LEDのアノードがそれぞれGPIO24,GPIO25に接続されています。
  
 ---
 
-https://youtu.be/qCr7hVg5pgQ
+## 実行動画
+
+動画URL : https://youtu.be/qCr7hVg5pgQ
+
+---
+
+## ライセンス
+
