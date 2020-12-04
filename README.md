@@ -70,3 +70,4 @@ LEDのアノードがそれぞれGPIO24,GPIO25に接続されています。
 
 ## ライセンス
 
+[GNU General Public License v3.0]https://github.com/ManatoYamaguchi/Robot-system/blob/main/COPYING
